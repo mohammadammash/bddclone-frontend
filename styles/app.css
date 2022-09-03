@@ -1,299 +1,361 @@
 /* ------CSS RESET------ */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-img{
-    height: 100%;
+img {
+  height: 100%;
 }
-hr {
-    height: 0.1px;
-    background-color: rgb(185, 185, 185);
-    border: none;
-    width:100%;
+li {
+  list-style: none;
 }
-p{
-    margin-top: 5px;
+a {
+  text-decoration: none;
+  color: white;
 }
-
 
 /* ------UTILITIES------ */
-.container{
-    display: flex;
-    align-items: center;
+.container {
+  display: flex;
+  align-items: center;
 }
-.flex-col{
-    flex-direction: column;
+.flex-col {
+  flex-direction: column;
 }
-.btn{
-    padding: 10px 8px;
-    border-radius: 9em;
+.btn {
+  padding: 10px 8px;
+  border-radius: 9em;
 }
-.blueBtn{
-    color: white;
-    background-color: rgb(52, 98, 215);
+.blueBtn {
+  color: white;
+  background-color: rgb(52, 98, 215);
 }
-.upper{
-    text-transform: uppercase;
+.upper {
+  text-transform: uppercase;
 }
-.whiteText{
-    color: white;
+.whiteText {
+  color: white;
 }
-.greyBg{
-    background-color: rgb(241, 241, 241);
+.greyBg {
+  background-color: rgb(241, 241, 241);
 }
-.whiteBg{
-    background-color: white;
+.whiteBg {
+  background-color: white;
 }
-.blackText{
-    color: black;
+.blackText {
+  color: black;
 }
-.greyText{
-    color:rgb(98, 98, 98);
+.greyText {
+  color: rgb(123, 123, 123);
 }
-li{
-    list-style: none;
+.capitalize {
+  text-transform: capitalize;
 }
-.capitalize{
-    text-transform: capitalize;
+hr {
+  height: 0.1px;
+  background-color: rgb(185, 185, 185);
+  border: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+p {
+  margin-top: 5px;
+}
+.justify-content-spacebetween{
+    justify-content: space-between;
+}
+.mr-20{
+    margin: 0 15%;
 }
 
 /* ------SECTIONS------ */
 /* Navbar */
-.nav{
-    justify-content: space-between;
-    margin: 0 5vw;
-    height:15%;
+.nav {
+  justify-content: space-between;
+  margin: 0 5vw;
+  height: 15%;
 }
-.nav .logo{
-    width: 60px;
-    height:100px;
-    margin: 20px 50px;
+.nav .logo {
+  width: 60px;
+  height: 100px;
+  margin: 20px 50px;
 }
-.navLinks{
-    width:60%;
-    justify-content: space-between;
+.navLinks {
+  width: 60%;
+  justify-content: space-between;
 }
-.navLinks a{
-    text-decoration: none;
+.navLinks a {
+  text-decoration: none;
 }
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
 
 /* Hero */
-.main{
-    background-image: url('../images/herobg.jpg');
-    height:100vh;
+.main {
+  background-image: url("../images/herobg.jpg");
+  height: 100vh;
 }
-.hero{
-    justify-content: center;
-    height:85%;
+.hero {
+  justify-content: center;
+  height: 85%;
 }
-.heroCont{
-    width:90vw;
-    font-size: 38px;
-    text-align: center;
+.heroCont {
+  width: 90vw;
+  font-size: 38px;
+  text-align: center;
 }
 
 /* Foundations */
-.fds{
-    height: 100%;
-    justify-content: center;
-    margin-bottom: 0;
+.fds {
+  height: 100%;
+  justify-content: center;
+  margin-bottom: 0;
 }
-.fds > p{
-    margin: 40px 0;
-    font-size: 2rem;
+.fds > p {
+  margin: 40px 0;
+  font-size: 2rem;
 }
-.fds > .cards{
-    height:60vh;
-    margin: 0 20px;
-    align-items: flex-start;
-    justify-content: space-between;
+.fds > .cards {
+  height: 60vh;
+  margin: 0 20px;
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.fdcard{
-    height:90%;
-    width:18%;
-    border-radius: 8px;
-    padding: 10px 20px;
-    background-color: white;
+.fdcard {
+  height: 90%;
+  width: 18%;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: white;
 }
-.fdcard > img{
-    margin: 15px 0;
-    width:8vw;
-    height:12vh;
+.fdcard > img {
+  margin: 15px 0;
+  width: 8vw;
+  height: 12vh;
 }
-.fdcard > p{
-    margin: 20px 0;
-    font-size: 17px;
-    text-align: center;
+.fdcard > p {
+  margin: 20px 0;
+  font-size: 17px;
+  text-align: center;
 }
 
 /* Vision */
-.vision{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/parallax-4.jpg');
-    background-position: cover;
-    justify-content: space-evenly;
-    height: 80vh;
+.vision {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/parallax-4.jpg");
+  background-position: cover;
+  justify-content: space-evenly;
+  height: 80vh;
 }
-.vision > video{
-    border-radius: 10px;
+.vision > video {
+  border-radius: 10px;
 }
 
 /* Join */
-.join{
-    height:100vh;
+.join {
+  height: 100vh;
 }
-.join > .title{
-    margin: 30px 0;
-    text-align: center;
+.join > .title {
+  margin: 30px 0;
+  text-align: center;
 }
-.joinCont{
-    justify-content: space-between;
-    margin-right: 10px;
+.joinCont {
+  justify-content: space-between;
+  margin-right: 10px;
 }
-.joinCont > img{
-    width:32%;
-    height: 500px;
+.joinCont > img {
+  width: 32%;
+  height: 500px;
 }
-.joinCont > .card{
-    border: 1px solid rgb(203, 203, 203);
-    border-radius: 5px;
-    height: 550px;
-    width: 15vw;
+.joinCont > .card {
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5px;
+  height: 550px;
+  width: 15vw;
 }
-.cardList{
-    width:50%;
+.cardList {
+  width: 50%;
 }
-.card > .title{
-    width: 10vw;
-    margin-top: 30px;
-    font-size: 20px;
+.card > .title {
+  width: 10vw;
+  margin-top: 30px;
+  font-size: 20px;
 }
-.cardList ul > li{
-    margin: 20% 0;
+.cardList ul > li {
+  margin: 20% 0;
 }
-.card > .btn{
-    margin-bottom: 30px;
+.card > .btn {
+  margin-bottom: 30px;
 }
-.joinfooter{
-    margin: 20px 10px;
-    text-align: end;
+.joinfooter {
+  margin: 20px 10px;
+  text-align: end;
 }
-.joinfooter > img{
-    margin-top: 10px;
-    height: 50px;
-    width: 150px;
+.joinfooter > img {
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
 }
 
 /* Stats */
-.stats{
-    background-image: url('../images/parallax-light.jpg');
-    background-size: cover;
-    height: 500px;
-    justify-content: center;
+.stats {
+  background-image: url("../images/parallax-light.jpg");
+  background-size: cover;
+  height: 500px;
+  justify-content: center;
 }
-.statsCont{
-    height:300px;
-    justify-content: center;
+.statsCont {
+  height: 300px;
+  justify-content: center;
 }
-.stat > img{
-    width:90px;
-    height:80px;
+.stat > img {
+  width: 90px;
+  height: 80px;
 }
-.statsCont > .stat{
-    width:20%;
-    height:60%;
-    justify-content: space-around;
-    text-align: center;
-    margin: 0 10px;
+.statsCont > .stat {
+  width: 20%;
+  height: 60%;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 10px;
 }
 
 /* Trending */
-.trending{
-    justify-content: space-evenly;
-    height: 650px;
+.trending {
+  justify-content: space-evenly;
+  height: 650px;
 }
-.tcard{
-    height: 400px;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-right:20px;
+.tcard {
+  height: 400px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 20px;
 }
-.tcard> img{
-    width:350px;
-    height:60%;
+.tcard > img {
+  width: 350px;
+  height: 60%;
 }
-.tcard > .title{
-    height:20%;
-    width:100%;
-    padding-left: 10px;
+.tcard > .title {
+  height: 20%;
+  width: 100%;
+  padding-left: 10px;
 }
-.tcard > .footer{
-    height:20%;
-    width:50%;
-    padding-left: 10px;
+.tcard > .footer {
+  height: 20%;
+  width: 50%;
+  padding-left: 10px;
 }
 
 /* Programs */
-.prgs{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/parallax-7.jpg');
-    height: 400px;
+.prgs {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/parallax-7.jpg");
+  height: 400px;
 }
-.prg > img, .acd img{
-    width:80px;
-    height: 80px;
-    display: block;
+.prg > img,
+.acd img {
+  width: 80px;
+  height: 80px;
+  display: block;
 }
-.sec1{
-    text-align: start;
-    justify-content: center;
-    height: 80%;
-    font-size: 20px;
+.sec1 {
+  text-align: start;
+  justify-content: center;
+  height: 80%;
+  font-size: 20px;
 }
-.sec1 > .acd{
-    width:30%;
-    text-align: start;
-    margin-right: 20px;
-    height: 100%;
-    justify-content: center;
-    align-items: flex-start;
+.sec1 > .acd {
+  width: 30%;
+  text-align: start;
+  margin-right: 20px;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
 }
-.allprgs{
-    display: flex;
-    width:40%;
-    height: 100%;
-    justify-content: flex-end;
+.allprgs {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  justify-content: flex-end;
 }
-.allprgs > .prg{
-    width:30%;
-    margin-left:5px;
-    text-align: center;
+.allprgs > .prg {
+  width: 30%;
+  margin-left: 5px;
+  text-align: center;
 }
 
 /* Community Messages */
-.comm{
-    height: 350px;
-    justify-content: center;
+.comm {
+  height: 350px;
+  justify-content: center;
 }
-.comm > .title{
-    height:60%;
-    width:25%;
-    margin-right: 20px;
+.comm > .title {
+  height: 60%;
+  width: 25%;
+  margin-right: 20px;
 }
-.comm > .msg{
-    height: 60%;
-    width:25%;
-    border-radius: 5px;
-    align-items: flex-start;
-    justify-content: center;
-    padding-left: 20px;
-    margin-right: 20px;
-    border: 1px solid rgb(203, 203, 203);
-    border-width: 0.01cm;
+.comm > .msg {
+  height: 60%;
+  width: 25%;
+  border-radius: 5px;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+  margin-right: 20px;
+  border: 1px solid rgb(203, 203, 203);
+  border-width: 0.01cm;
 }
-.msg > p{
-    margin-top: 15px;
+.msg > p {
+  margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+  height: 60vh;
+  background-color: rgb(53, 53, 53);
+  border: 3px solid black;
+}
+.footer > .content {
+  justify-content: center;
+  height: 80%;
+}
+.footer .card {
+  width: 20%;
+  height: 80%;
+  align-items: flex-start;
+  color: white;
+}
+.footer .card > .title1 {
+  margin-bottom: 25px;
+  color: rgb(185, 185, 185);
+}
+.footer .card > .title2 {
+  margin-bottom: 10px;
+}
+.footer .fcardLinks:not(:last-child) {
+  margin-left: 20px;
+}
+.footer .fcardLinks > li {
+  margin-bottom: 20px;
+}
+.footer .fimg {
+  width: 120px;
+}
+.footer .email > input {
+  width: 60%;
+  border: none;
+  background-color: inherit;
+}
+.footer .content .card:nth-last-child(2) {
+  width: 10%;
+}
+.email{
+    width:100%;
+}
+.fEnd{
+    margin-top: 0;
+    height:20%;
+    font-size: 15px;
 }
