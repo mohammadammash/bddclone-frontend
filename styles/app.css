@@ -13,6 +13,9 @@ hr {
     border: none;
     width:100%;
 }
+p{
+    margin-top: 5px;
+}
 
 
 /* ------UTILITIES------ */
@@ -232,4 +235,40 @@ li{
     height:20%;
     width:50%;
     padding-left: 10px;
+}
+
+/* Programs */
+.prgs{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/parallax-7.jpg');
+    height: 400px;
+}
+.prg > img, .acd img{
+    width:80px;
+    height: 80px;
+    display: block;
+}
+.sec1{
+    text-align: start;
+    justify-content: center;
+    height: 80%;
+    font-size: 20px;
+}
+.sec1 > .acd{
+    width:30%;
+    text-align: start;
+    margin-right: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.allprgs{
+    display: flex;
+    width:40%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.allprgs > .prg{
+    width:30%;
+    margin-left:5px;
+    text-align: center;
 }
