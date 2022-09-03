@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+img{
+    height: 100%;
+}
 
 
 /* ------UTILITIES------ */
@@ -31,6 +34,15 @@
 .greyBg{
     background-color: rgb(241, 241, 241);
 }
+.blackText{
+    color: black;
+}
+.greyText{
+    color:rgb(98, 98, 98);
+}
+li{
+    list-style: none;
+}
 
 /* ------SECTIONS------ */
 /* Navbar */
@@ -45,7 +57,6 @@
     margin: 20px 50px;
 }
 .navLinks{
-    list-style: none;
     width:60%;
     justify-content: space-between;
 }
@@ -104,3 +115,62 @@
     font-size: 17px;
     text-align: center;
 }
+
+/* Vision */
+.vision{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/parallax-4.jpg');
+    background-position: cover;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.vision > video{
+    border-radius: 10px;
+}
+
+/* Join */
+.join{
+    height:100vh;
+}
+.join > .title{
+    margin: 30px 0;
+    text-align: center;
+}
+.joinCont{
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.joinCont > img{
+    width:32%;
+    height: 500px;
+}
+.joinCont > .card{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    height: 550px;
+    width: 15vw;
+}
+.cardList{
+    width:50%;
+}
+.card > .title{
+    width: 10vw;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.cardList ul > li{
+    margin: 20% 0;
+}
+.card > .btn{
+    margin-bottom: 30px;
+}
+.joinfooter{
+    margin: 20px 10px;
+    text-align: end;
+}
+.joinfooter > img{
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+/*  */
