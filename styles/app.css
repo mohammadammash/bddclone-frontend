@@ -173,4 +173,26 @@ li{
     width: 150px;
 }
 
-/*  */
+/* Stats */
+.stats{
+    background-image: url('../images/parallax-light.jpg');
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+}
+.statsCont{
+    height:300px;
+    justify-content: center;
+}
+.stat > img{
+    width:90px;
+    height:80px;
+}
+.statsCont > .stat{
+    width:20%;
+    height:60%;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 10px;
+}
+
