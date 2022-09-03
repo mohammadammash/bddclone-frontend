@@ -272,3 +272,28 @@ li{
     margin-left:5px;
     text-align: center;
 }
+
+/* Community Messages */
+.comm{
+    height: 350px;
+    justify-content: center;
+}
+.comm > .title{
+    height:60%;
+    width:25%;
+    margin-right: 20px;
+}
+.comm > .msg{
+    height: 60%;
+    width:25%;
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(203, 203, 203);
+    border-width: 0.01cm;
+}
+.msg > p{
+    margin-top: 15px;
+}
